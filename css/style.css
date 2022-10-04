@@ -1,0 +1,30 @@
+@font-face {
+    font-family: "iansui";
+    src: url("fonts/iansui.ttf") format("woff"), url("fonts/iansui.ttf") format("truetype"), url("fonts/iansui.ttf") format("embedded-opentype");
+}
+
+@font-face {
+    font-family: "MemphisRiver";
+    src: url(fonts/MemphisRiver.ttf);
+}
+
+body,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+a,
+button,
+form,
+span {
+    font-family: "Fredericka the Great", "Lucida Grande", Helvetica, "Helvetica Neue", "HelveticaNeue-Light", "Helvetica Neue Light", Arial, sans-serif;
+    color: black;
+}
+
+.carousel-caption {
+    top: 5%;
+    bottom: auto;
+}
